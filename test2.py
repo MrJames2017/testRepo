@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 import test
-test.hello()
+name = input("What is your name\n>")
+test.hello(name)
