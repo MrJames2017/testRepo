@@ -1,2 +1,6 @@
 #!/usr/bin/python3
-print("Hello World")
+def hello(name="user"):
+	print("Hello {}".format(name))
+	
+if __name__ =="__main__":
+	hello()
